@@ -1,0 +1,132 @@
+/* importamos la fuente */
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@300;400;500;800&display=swap');
+*{margin: 0; padding: 0; box-sizing: border-box;}
+html {font-family:  'Segoe UI', 'Sans-serif'; text-align: center;}
+a {text-decoration:none;}
+body {background-color: #f6fafc;}
+
+.food-form {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.food-form form{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: 10px auto;
+    text-align: center;
+}
+
+.food-form form input{
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.food-form form input[type="text"],
+.food-form form input[type="number"],
+.food-form form input[type="submit"] {
+    border: 1px solid;
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 5px;
+    font-size: 16px;
+}
+.food-table{
+    margin-top: 10px;
+    padding: 0px 20px;
+    border-radius: 5px;
+}
+.food-table table{
+    width:100%;
+    margin-top: 20px;
+    max-width: 100%;
+    border: 3px solid #ccc;
+    border-collapse: collapse;
+    margin: 0 auto;
+    padding: 0;
+    table-layout: fixed;
+}
+
+table tr{
+    padding: 4px
+}
+table th{
+    padding:16px;
+    font-size:.85em;
+    height: 10px;
+}
+
+.food-table th, .food-table tr {
+    border: 2px solid #ccc;
+    padding: 8px;
+    text-align: left
+}
+
+.food-table--edit{
+    background-color: #fff;
+    padding: 6px;
+    color:#6379dc;
+    text-align: center;
+    font-weight: bold;
+}
+.food-table--delete{
+    background-color: #fff;
+    padding: 6px;
+    color:#6379dc;
+    text-align: center;
+    font-weight: bold;
+}
+.food-table--delete:hover {
+    color: #399b6d;
+}
+.food-table--edit:hover {
+    color: #399b6d;
+}
+
+input[type="submit"] {
+    background-color: #6379dc;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #399b6d;
+}
+
+.contacto{
+    background:
+        linear-gradient(rgba(128, 152, 250, 0.582), rgb(37, 202, 149)),
+        url(Imagenes/mimage.jpg);
+        background-size: cover;
+        color: #000000;
+        margin-top: 80px;
+        padding: 20px 30px;
+        height: 350px;
+}
+.contacto .contenedor-contacto{
+    max-width: 1100px;
+    margin: auto;
+}
+.contacto p,
+.contacto h3{
+    text-align: left;
+    padding-bottom: 5px;
+}
+.contacto .contenedor-contacto .fila{
+    display: flex;
+}
+.contacto .contenedor-contacto .fila .col{
+    width: 50%;
+}
+.contacto .contenedor-contacto .info{
+    margin-bottom: 30px;
+    border-left: 3px solid #000000;
+    padding-left: 8px;
+}
+.contacto .contenedor-contacto .info p{
+    color: #000000;
+}
